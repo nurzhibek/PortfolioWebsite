@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=0.1">
+        <title>Nurzhibek's Website</title>
+        <link rel="stylesheet" href="projects.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" 
+        rel="stylesheet">
+    </head>
+    <body>
+
+        <section class="header">
+            <nav>
+                <a href="index.html" class="logo">NurzhibekAI</a>
+                <div class="nav-links" id="navLinks">
+                    <img src="images/close_white.svg" alt="" class="icon" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <img src="images/menu_white.svg" alt="" class="icon" onclick="showMenu()">
+            </nav>
+
+            <h1>My Work</h1>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects">
+            <h2>I Present You My Projects</h2>
+
+                <div class="row">
+                    <div class="projects-col">
+                        <a href="https://github.com/nurzhibek/AlienInvasion"><img src="images/alienInvasionImage1.png" alt=""></a>
+                        <a href="https://github.com/nurzhibek/AlienInvasion"><h3>Alien Invasion</h3></a>
+                        <p>A game written in Python using Pygame library. A space ship fires bullets to the aliens. 
+                            Levels, scores and records are kept track of.</p>
+                    </div>
+
+                    <div class="projects-col">
+                        <a href="https://github.com/nurzhibek/ParkourGame"><img src="images/parkourImage.png" alt=""></a>
+                        <a href="https://github.com/nurzhibek/ParkourGame"><h3>Parkour Game</h3></a>
+                        <p>A game written in Python using Pygame library. A character jumps on earth blocks and goes through a parkour. 
+                            Assets such as background or character sprites can be changed.</p>
+                    </div>
+
+                    <div class="projects-col">
+                        <a href="https://github.com/nurzhibek/LibraryFormsApp"><img src="images/libraryAppImage.png" alt=""></a>
+                        <a href="https://github.com/nurzhibek/LibraryFormsApp"><h3>Library App</h3></a>
+                        <p>Windows Forms App written in C#. This is an online Library Manager 
+                            that enables a user to add, view, edit and delete books.</p>
+                    </div>
+
+                    <div class="projects-col">
+                        <a href="https://github.com/nurzhibek/WordsSentencesGame"><img src="images/wordsGameImage1.png" alt=""></a>
+                        <a href="https://github.com/nurzhibek/WordsSentencesGame"><h3>Words and Sentences Game</h3></a>
+                        <p>Windows Forms App written in C#. It is a game, in which a user is given a pair of sentences or/and words, 
+                            and one has to write the text accordingly in a given amount of time.</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <section class="footer">
+                <h4>Social Media</h4>
+                <p>If you are interested in my content, follow me on Social Media!</p>
+                    <div class="sm-icons">
+                        <a href="https://www.instagram.com/isanewt_/"><img src="images/instagram.svg" alt="" class="sm-icon"></a>
+                        <a href="https://github.com/nurzhibek"><img src="images/github.svg" alt="" class="sm-icon"></a>
+                        <a href="https://www.linkedin.com/in/nurzhibek-kozhoeva-nk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <img src="images/linkedin.svg" alt="" class="sm-icon"></a>
+                    </div>
+            </section>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
